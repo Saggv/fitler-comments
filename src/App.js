@@ -3,11 +3,15 @@ import axios from "axios";
 import './App.scss';
 
 function App() {
-  const [id, setID] = useState("");
+  const [id, setID] = useState("100011738775535_1188088838259064");
 
   const [active, setActive] = useState("all");
 
-  const [token, setToken] = useState("");
+  const [randomNumber, setRandomNumber] = useState();
+
+  const [randomText, setRandomText] = useState("Random");
+
+  const [token, setToken] = useState("EAABwzLixnjYBAIEp8DrIZCHsYqPdWMYZCFFc0ZB30QiJMBu4U03FPkZChGpLQFLOzaD3ZBn0SZAVsjQnzZB2OQC803ekjIUapAELcWe59imAHqSZCRnmAeg8AyOr7g3mPIR1kpGGulqCSFMBvl09iOdWK9DtaJ4M8MqRK1eIEZAmdpx5ev9eu89RZAdvWG3o2vuowZD");
 
   const [comments, setComments] = useState([]);
 
@@ -51,9 +55,21 @@ function App() {
     setComments(result);
   }
 
+  const generateRandomNumber =(e)=>{
+    e.preventDefault();
+    if(randomText === "Random"){
+      setRandomText("Clear")
+      setRandomNumber(Math.floor(Math.random() * 100));
+    }else{
+      setRandomNumber("");
+      setRandomText("Random");
+    }
+  }
+
   return(
     <div className="home">
       <h2>Filter Phone Number Of A Post In Facebook</h2>
+      <div className="random">{randomNumber}</div>
 
       <div className="container">
         <form>
@@ -68,6 +84,8 @@ function App() {
           </div>
 
           <button type="submit" onClick={(e)=>handerSubmit(e)}>Filter</button>
+
+          <button className="btn-random" onClick={(e)=>generateRandomNumber(e)}>{randomText}</button>
         </form>
 
         <div className="wrapper-comments">
