@@ -3,7 +3,7 @@ import axios from "axios";
 import './App.scss';
 
 function App() {
-  const [id, setID] = useState("100011738775535_1188088838259064");
+  const [id, setID] = useState("");
 
   const [active, setActive] = useState("all");
 
@@ -11,7 +11,7 @@ function App() {
 
   const [randomText, setRandomText] = useState("Random");
 
-  const [token, setToken] = useState("EAABwzLixnjYBAIEp8DrIZCHsYqPdWMYZCFFc0ZB30QiJMBu4U03FPkZChGpLQFLOzaD3ZBn0SZAVsjQnzZB2OQC803ekjIUapAELcWe59imAHqSZCRnmAeg8AyOr7g3mPIR1kpGGulqCSFMBvl09iOdWK9DtaJ4M8MqRK1eIEZAmdpx5ev9eu89RZAdvWG3o2vuowZD");
+  const [token, setToken] = useState("");
 
   const [comments, setComments] = useState([]);
 
