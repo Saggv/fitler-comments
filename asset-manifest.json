@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fitler-comments/static/css/main.1582c48c.chunk.css",
-    "main.js": "/fitler-comments/static/js/main.b5b8cb2e.chunk.js",
-    "main.js.map": "/fitler-comments/static/js/main.b5b8cb2e.chunk.js.map",
+    "main.css": "/fitler-comments/static/css/main.5bab55a9.chunk.css",
+    "main.js": "/fitler-comments/static/js/main.ac76b9e1.chunk.js",
+    "main.js.map": "/fitler-comments/static/js/main.ac76b9e1.chunk.js.map",
     "runtime-main.js": "/fitler-comments/static/js/runtime-main.6cd22a0d.js",
     "runtime-main.js.map": "/fitler-comments/static/js/runtime-main.6cd22a0d.js.map",
     "static/js/2.fb7d548a.chunk.js": "/fitler-comments/static/js/2.fb7d548a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.51044689.chunk.js": "/fitler-comments/static/js/3.51044689.chunk.js",
     "static/js/3.51044689.chunk.js.map": "/fitler-comments/static/js/3.51044689.chunk.js.map",
     "index.html": "/fitler-comments/index.html",
-    "static/css/main.1582c48c.chunk.css.map": "/fitler-comments/static/css/main.1582c48c.chunk.css.map",
+    "static/css/main.5bab55a9.chunk.css.map": "/fitler-comments/static/css/main.5bab55a9.chunk.css.map",
     "static/js/2.fb7d548a.chunk.js.LICENSE.txt": "/fitler-comments/static/js/2.fb7d548a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6cd22a0d.js",
     "static/js/2.fb7d548a.chunk.js",
-    "static/css/main.1582c48c.chunk.css",
-    "static/js/main.b5b8cb2e.chunk.js"
+    "static/css/main.5bab55a9.chunk.css",
+    "static/js/main.ac76b9e1.chunk.js"
   ]
 }
